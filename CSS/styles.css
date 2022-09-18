@@ -1,0 +1,144 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: floralwhite;
+  }
+
+  .heading{
+    background-color:darkseagreen;
+    color: ivory; 
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    
+  }
+
+  #left_nav_bar {
+    height: auto;
+    width: 150 px;
+    display: inline-flex;
+    padding-right: 40px;
+    
+  }
+
+  
+  #left_nav_bar a {
+    display: block;
+    color: ivory;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    
+    
+    
+  }
+
+  .side-bar{
+    padding: 0;
+    background-color:black;
+    list-style-type: none;
+    margin: 0;
+    width: 200px;
+    padding-left: 5%;
+    
+    
+  }
+
+ 
+
+  #left_nav_bar a:hover
+  {
+    background-color:antiquewhite;
+    font: 20px;
+    color: black;
+    
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  .hor_nav_bar {
+    background-color:bisque;
+    align-items: center;
+    overflow: hidden;
+
+  }
+  
+  /* Style the links inside the navigation bar */
+  .hor_nav_bar a {
+    float: left;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+
+  
+  /* Change the color of links on hover */
+  .hor_nav_bar a:hover {
+    background-color: black;
+    color: beige;
+  }
+  
+.form{
+display: inline-flex;
+
+width: 50%;
+padding-left: 200px;
+padding-bottom: 30px;
+
+}
+
+
+
+input[type=text]{
+width: 100%;
+padding:20px;
+margin-top:10px;
+margin-bottom: 10px;
+border: none;
+background-color: antiquewhite;
+}
+
+input[type=text]:focus{
+background-color:floralwhite;
+border-style: 0 ;
+}
+
+
+#btn{
+background-color: black;
+color: beige;
+padding: 20px;
+margin-top: 20px;
+border-radius: 15px;
+width: 100%;
+border-style: none ;
+font-size: medium;
+
+}
+
+#btn:hover{
+background-color:bisque;
+color: black;
+}
+
+#card{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 5%;
+    background-color: mistyrose;
+}
+
+
+#card_image{
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
